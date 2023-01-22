@@ -1,7 +1,7 @@
-window.onscroll = () => progressContainerBar()
+window.onscroll = () => scroller()
 
 
-const progressContainerBar = () => {
+const scroller = () => {
   const progressBar = document.querySelector('[data-progressBar]') 
     bodyScroll = document.body.scrollTop,
     elementScroll = document.documentElement.scrollTop,
