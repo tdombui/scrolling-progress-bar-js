@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     height: 100%;
     font-family: -apple-system, 
     BlinkMacSystemFont, 
@@ -11,7 +10,6 @@ body {
     "Helvetica Neue", 
     sans-serif;
   line-height: 1.75;
-  margin: 0;
   font-size: 25px;
   }
 
@@ -22,7 +20,6 @@ body {
   }
 
   .text {
-    /* padding: 10rem; */
     margin-top: 5rem;
     margin-left: 10rem;
     margin-right: 10rem;
