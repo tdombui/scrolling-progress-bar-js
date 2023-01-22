@@ -1,8 +1,6 @@
 window.onscroll = () => scroller()
-
-
 const scroller = () => {
-  const progressBar = document.querySelector('[data-progressBar]') 
+  const progressBar = document.querySelector('[data-scrollerProgress]') 
     bodyScroll = document.body.scrollTop,
     elementScroll = document.documentElement.scrollTop,
     heightScroll = document.documentElement.scrollHeight,
@@ -10,5 +8,5 @@ const scroller = () => {
     sScroll = bodyScroll|| elementScroll,
     height = heightScroll - heightClient,
     scrolled = (sScroll / height) * 100,
-  progressBar.style.width = `${scrolled}%`;
+  scrollerProgress.style.width = `${scrolled}%`;
 }
