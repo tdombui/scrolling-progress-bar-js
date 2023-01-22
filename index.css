@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+  line-height: 1.75;
+  margin: 0;
+  font-size: 25px;
+  }
+
+  .heading1 {
+    margin-top: 8rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .text {
+    /* padding: 10rem; */
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .container {
+   background-color: rgb(222, 222, 222);
+   width: 100%;
+   position: fixed;
+   top: 0;
+  }
+
+  .progress__container {
+    background: rgb(156, 177, 185);
+    height: 20px;
+    width: 100%;
+  }
+  
+  .progress__container-bar {
+    background: linear-gradient(to Right, #a9daff, #76f5ed, #4295d5, #0d7b6e);
+    height: 20px;
+    width: 0%;
+  }
